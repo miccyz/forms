@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "tytul": "Przeczytać książkę",
+    "opis": "Muszę przeczytać całą <b>książkę</b>",
+    "kolor": "#BD8D30",
+    "status": "in-progress",
+    "zadania": [] },
+  {
+    "id": 2,
+    "tytul": "Napisać trochę kodu",
+    "opis": "Będę przepisywać kod przykładu z laboratorium. Źródła będą na stronie <a href='https://dgrela.pl'>DGrela.pl</a>",
+    "kolor": "#3A7020",
+    "status": "todo",
+    "zadania": [
+      {   "id": 1,
+        "nazwa": "Przykład listy zakupów",
+        "zrobione": true },
+      {   "id": 2,
+        "nazwa": "Przykład Kanban",
+        "zrobione": false },
+      {   "id": 3,
+        "nazwa": "Mój własny przykład",
+        "zrobione": false },
+      {   "id": 4,
+        "nazwa": "Dodatkowe <u>zadanie</u>",
+        "zrobione": false }
+    ]
+  },
+  {
+    "id": 3,
+    "tytul": "Przeczytać książkę 2",
+    "opis": "Muszę przeczytać **całą** książkę",
+    "kolor": "#FF003D",
+    "status": "done",
+    "zadania": [] }
+]
